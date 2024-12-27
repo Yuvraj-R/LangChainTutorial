@@ -16,7 +16,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 messages = [
     SystemMessage("Translate the following from English into Italian"),
-    HumanMessage("testicles are the male reproductive organs of mammals"),
+    HumanMessage("Hi!"),
 ]
 
 model.invoke(messages)
